@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  InfoViewController.swift
 //  SwiftSideMenu
 //
 //  Created by Yaroslav Himko on 20.04.21.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InfoViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        title = "About the app"
+        view.backgroundColor = .systemGreen
     }
-
-
 }
-
